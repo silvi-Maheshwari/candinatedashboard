@@ -1,4 +1,3 @@
-# candinatedashboard
 # Candidate Dashboard
 
 A modern React application for managing and comparing job candidates with real-time filtering and detailed candidate information panels.
