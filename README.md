@@ -1,26 +1,24 @@
-# Candidate Dashboard
+ Candidate Dashboard
+A modern application and this application desgined by user.
 
-A modern React application for managing and comparing job candidates with real-time filtering and detailed candidate information panels.
+ Features
+- Candidate List View - Browse all candidates with quick overview information
+- Advanced Filtering - Filter candidates by priority, status, and other criteria
+- Candidate Comparison - Compare multiple candidates side-by-side
+- Detailed View - Access detailed candidate information through a drawer panel
+- Summary Statistics - View dashboard summary and candidate statistics
+- Video Integration - View candidate interview videos
+- Assignment Management- Track and manage candidate assignments
 
-## Features
+Tech Stack
 
-- **Candidate List View** - Browse all candidates with quick overview information
-- **Advanced Filtering** - Filter candidates by priority, status, and other criteria
-- **Candidate Comparison** - Compare multiple candidates side-by-side
-- **Detailed View** - Access detailed candidate information through a drawer panel
-- **Summary Statistics** - View dashboard summary and candidate statistics
-- **Video Integration** - View candidate interview videos
-- **Assignment Management** - Track and manage candidate assignments
+- React 19 - UI framework
+- Vite - Build tool with HMR support
+- Redux Toolkit - State management
+- React Redux - React bindings for Redux
+- ESLint - Code quality and consistency
 
-## Tech Stack
-
-- **React 19** - UI framework
-- **Vite** - Build tool with HMR support
-- **Redux Toolkit** - State management
-- **React Redux** - React bindings for Redux
-- **ESLint** - Code quality and consistency
-
-## Project Structure
+ Project Structure
 
 ```
 src/
@@ -47,22 +45,21 @@ src/
 └── App.jsx               # Main app component
 ```
 
-## Getting Started
+ Getting Started
 
-### Prerequisites
+ Prerequisites
 
 - Node.js 16+ 
 - npm or yarn
 
-### Installation
+ Installation
 
 1. Clone the repository
 2. Install dependencies:
    ```bash
    npm install
    ```
-
-### Development
+ Development
 
 Start the development server with hot module replacement:
 
@@ -72,7 +69,7 @@ npm run dev
 
 The application will be available at `http://localhost:5173`
 
-### Build
+ Build
 
 Create a production build:
 
@@ -80,7 +77,7 @@ Create a production build:
 npm run build
 ```
 
-### Preview
+ Preview
 
 Preview the production build locally:
 
@@ -88,7 +85,7 @@ Preview the production build locally:
 npm run preview
 ```
 
-### Linting
+ Linting
 
 Check code quality with ESLint:
 
@@ -96,19 +93,19 @@ Check code quality with ESLint:
 npm run lint
 ```
 
-## Available Scripts
+Available Scripts
 
 - `npm run dev` - Start development server
 - `npm run build` - Build for production
 - `npm run preview` - Preview production build
 - `npm run lint` - Run ESLint
 
-## Development Notes
+ Development Notes
 
 - Hot Module Replacement (HMR) is enabled for fast development experience
 - Redux DevTools integration available through Redux Toolkit
 - Mock data used for demonstration - replace with API calls as needed
 
-## License
+ License
 
 MIT
